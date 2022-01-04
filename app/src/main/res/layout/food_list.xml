@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="235dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/food_image"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:src="@color/purple_200"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="25dp"
+        android:text="Food Name"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
+
+    <TextView
+        android:id="@+id/food_price_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Harga"
+        android:textSize="15dp"
+        android:layout_below="@+id/food_name" />
+
+    <TextView
+        android:id="@+id/food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Rp. 10000"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/food_price_text" />
+
+</RelativeLayout>

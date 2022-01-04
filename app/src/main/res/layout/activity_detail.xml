@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3e9d7"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/detail_gambar"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@color/purple_200" />
+
+    <TextView
+        android:id="@+id/detail_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="175dp"
+        android:text="Judul"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
+
+    <TextView
+        android:id="@+id/detail_deskripsi_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Deskripsi"
+        android:textSize="15dp"
+        android:layout_below="@+id/detail_judul" />
+
+    <TextView
+        android:id="@+id/detail_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_deskripsi_text"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Deskripsi"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

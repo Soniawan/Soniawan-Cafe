@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UTS Prak PAM 1197050136 Soniawan</string>
+    <string name="main_name">Login</string>
+    <string name="menu_name">Menu Cafe</string>
+    <string name="detail_name">Detail Menu</string>
+    <string name="register_name">Register</string>
+</resources>
